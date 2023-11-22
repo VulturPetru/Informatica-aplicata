@@ -1,24 +1,65 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Slab&display=swap');
-body { 
-	background-color: gray;
-	}
-h1,h2,h3{
-	font-family: 'Oswald', sans-serif;
-	}
+	@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');  
+
+body{background-color:black;}
+button{ text-align:center}
 h1{ 
 text-align: center;
 color: blue;
 background-color: bisque;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+border-radius: 20px;
 }
-h2, h3{ 
-font-family: font-family: 'Roboto Slab', serif;
-color: crimson;
+h2{ 
+ font-family: 'Roboto Slab', serif;
+color: red;
+text-align: center;
+background-color: bisque;
+border: 2px solid;
+border-color: black;
+border-radius: 20px;
+}
+h3{
+font-family:  'Dancing Script', cursive;
+color: red;
+text-align: center;}
 
 .poza{ 
-	height: 400px;
-	width: 500px;
-	margin-left: 100px;
+	height: 600px;
+	width: 700px;
+	margin-left: 580px;
+	border: 20px blue;
+	border-radius: 30px;
+	padding: 5px;
 }
-	</style>
+p{
+font-family:  'Dancing Script', cursive;
+color: blue;
+text-align: center;
+border-color: blue;
+}
+
+table, th, td{
+border: 3px solid;
+border-color: gray;
+text-align: center;
+color: black;
+font-family:'Roboto Slab', serif;
+margin-left: 690px;
+height: 50px;
+width: 500px;
+}
+p1{
+font-family:  'Dancing Script', cursive;
+margin-left: 200px;
+color: blue;}
+
+.hobby{ font-family: 'Caveat', cursive;
+		color: blue;
+		text-align: center; 
+} 
+</style>

@@ -25,14 +25,15 @@ function altaviata()
 		educatie.innerHTML=" Experiente: <ol><li>Nota 10 in exmen la matematici speciale.</li><li>L-am impresionat pe domnul Orzan.</li><li>Am terminat facultatea in primii 4 ani.</li></ol> "
 		img.src="inginer.jpg"
 		
-		body.style.backgroundColor="orange"
+		body.style.backgroundColor="silver"
 		body.style.color="blue"
 		
 		//opacitate imagine
-		img.style.opacity="60%"
+		img.style.opacity="75%"
 		//grosime margini imagine
 		img.style.borderWidth="25px"
-		img.style.width="300px"
-		img.style.height="200px"
+		img.style.width="400px"
+		img.style.height="300px"
+		img.style.marginLeft="500px"
 	
 }
