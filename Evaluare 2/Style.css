@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    background-color: tan;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px green;
+    text-decoration: underline;
+    color: Blue;
+    background-color: LightGray;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    text-decoration: overline underline;
+    font-family: 'Caveat', cursive;
+}
+
+h4 {
+    text-align: center;
+    color: blue;
+    background-color: LightGray;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+table,
+th,
+td {
+    border: 5px solid;
+    border-color: SlateGrey;
+    text-align: center;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 10px;
+    height: 10px;
+    width: 100px;
+}
+
+.retea {
+    text-align: center;
+    color: blue;
+    text-decoration: underline overline;
+    font-family: 'Caveat', cursive;
+    text-shadow: 1px 1px 3px white;
+}
+
+.reteajpg {
+    height: 600px;
+    width: 700px;
+    margin-left: 580px;
+    border: 5px solid blue;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.conexiune {
+    text-align: left;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px white;
+}
+
+.caracteristici {
+    text-align: left;
+    color: DarkViolet;
+    text-shadow: 2px 2px 3px white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.resurse {
+    text-align: left;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px white;
+}
+
+#img-resurse img {
+    height: 200px;
+    width: 300px;
+    margin-left: 3px;
+    border: 4px double blue;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+#img-resurse img.enlarged {
+    width: 100%;
+    height: auto;
+    border: 4px double blue;
+    border-radius: 30px;
+}
